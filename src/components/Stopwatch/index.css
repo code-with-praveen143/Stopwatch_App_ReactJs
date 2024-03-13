@@ -1,0 +1,129 @@
+/* Write CSS here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  }
+}
+.main-heading {
+  color: #333333;
+  font-size: 32px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 48px;
+  }
+}
+.card-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+}
+.stopwatch-container {
+  display: flex;
+  justify-content: space-between;
+}
+.stopwatch-img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .stopwatch-img {
+    width: 50px;
+    height: 50px;
+  }
+}
+.stopwatch-heading {
+  color: #333333;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+@media screen and (min-width: 768px) {
+  .stopwatch-heading {
+    font-size: 38px;
+  }
+}
+.timer {
+  color: #333333;
+  font-size: 42px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .timer {
+    font-size: 58px;
+  }
+}
+.button-container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.button-1 {
+  background-color: #1db05f;
+  border-radius: 10px;
+  padding: 10px 12px 10px 12px;
+  color: #333333;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border-width: 0px;
+  border-style: solid;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.button-2 {
+  background-color: #ef0d36;
+  border-radius: 10px;
+  padding: 10px 12px 10px 12px;
+  color: #333333;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border-width: 0px;
+  border-style: solid;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.button-3 {
+  background-color: #eaa800;
+  border-radius: 10px;
+  padding: 10px 12px 10px 12px;
+  color: #333333;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  border-width: 0px;
+  border-style: solid;
+  margin-right: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  outline: none;
+}
